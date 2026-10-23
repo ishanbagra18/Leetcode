@@ -17,3 +17,4 @@ A collection of optimal solutions and data structure implementations from Strive
 | 09 | [Design Twitter](./09_design_twitter.cpp) | Hash Map + Max-Heap | Feed: $O(K \log U)$ | $O(U + T)$ |
 | 10 | [Number of Ways to Arrive at Destination](./10_number_of_ways_to_arrive_at_destination.cpp) | Dijkstra + DP Path Counting | $O(E \log V)$ | $O(V + E)$ |
 | 11 | [Disjoint Set Union (DSU)](./11_disjoint_set.cpp) | Path Compression + Rank/Size | $O(4\alpha) \approx O(1)$ | $O(N)$ |
+| 12 | [Merge k Sorted Lists](./12_merge_k_sorted_lists.cpp) | Min-Heap (Priority Queue) | $O(N \log k)$ | $O(k)$ |
