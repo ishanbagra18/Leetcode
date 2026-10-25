@@ -5,7 +5,7 @@ A clean, modular repository with optimal C++ solutions and data structure implem
 ---
 
 ### 📊 Progress Tracker
-- **Total Solved in this Set:** 12 / 12 (100%)
+- **Total Solved in this Set:** 15 / 15 (100%)
 - **Status:** 🟢 Complete
 
 
@@ -65,6 +65,17 @@ Progress: [███████████████████████
 - [x] **[11. Disjoint Set Union (DSU)](./11_disjoint_set.cpp)** `Concept / Template`
   - **Approach:** Path Compression + Union by Size / Rank
   - **Complexity:** $O(4\alpha) \approx O(1)$ per operation
+- [x] **[13. Alien Dictionary](./13_alien_dictionary.cpp)** `Hard`
+  - **Approach:** Directed Graph + Topological Sort (Kahn's BFS)
+  - **Complexity:** $O(C + V + E)$ time, $O(V + E)$ space
+- [x] **[14. Word Ladder](./14_word_ladder.cpp)** `Hard`
+  - **Approach:** Breadth-First Search (BFS) level-by-level shortest path
+  - **Complexity:** $O(N \times L \times 26)$ time, $O(N \times L)$ space
+
+### 7. 🪟 Sliding Window & Two Pointers
+- [x] **[15. Sliding Window Maximum](./15_sliding_window_maximum.cpp)** `Hard`
+  - **Approach:** Monotonic Decreasing Deque (Fixed Window) + Variable Window pattern
+  - **Complexity:** $O(N)$ time, $O(k)$ space
 
 ---
 
@@ -84,3 +95,6 @@ Progress: [███████████████████████
 | [x] | 10 | Number of Ways to Arrive at Destination | Graph / Dijkstra | 🟡 Medium | $O(E \log V)$ / $O(V + E)$ | [Code](./10_number_of_ways_to_arrive_at_destination.cpp) |
 | [x] | 11 | Disjoint Set Union (DSU) | Graph / Template | 🟢 Fundamental | $O(4\alpha) \approx O(1)$ | [Code](./11_disjoint_set.cpp) |
 | [x] | 12 | Merge k Sorted Lists | Linked List / Heap | 🔴 Hard | $O(N \log k)$ / $O(k)$ | [Code](./12_merge_k_sorted_lists.cpp) |
+| [x] | 13 | Alien Dictionary | Graph / Topo Sort | 🔴 Hard | $O(C + V + E)$ / $O(V + E)$ | [Code](./13_alien_dictionary.cpp) |
+| [x] | 14 | Word Ladder | Graph / BFS | 🔴 Hard | $O(N \times L \times 26)$ / $O(N \times L)$ | [Code](./14_word_ladder.cpp) |
+| [x] | 15 | Sliding Window Maximum | Sliding Window / Deque | 🔴 Hard | $O(N)$ / $O(k)$ | [Code](./15_sliding_window_maximum.cpp) |
