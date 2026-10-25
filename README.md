@@ -2,19 +2,7 @@
 
 A clean, modular repository with optimal C++ solutions and data structure implementations from **Striver's A2Z DSA Sheet**.
 
----
 
-### 📊 Progress Tracker
-- **Total Solved in this Set:** 15 / 15 (100%)
-- **Status:** 🟢 Complete
-
-
-```
-
-Progress: [████████████████████████████████] 100%
-```
-
----
 
 ## 📋 Topic-Wise Checklist
 
