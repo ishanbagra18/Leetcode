@@ -3,7 +3,6 @@
 A clean, modular repository with optimal C++ solutions and data structure implementations from **Striver's A2Z DSA Sheet**.
 
 
-
 ## 📋 Topic-Wise Checklist
 
 ### 1. 🧮 Arrays & Two Pointers
@@ -65,6 +64,24 @@ A clean, modular repository with optimal C++ solutions and data structure implem
   - **Approach:** Monotonic Decreasing Deque (Fixed Window) + Variable Window pattern
   - **Complexity:** $O(N)$ time, $O(k)$ space
 
+### 8. 🍬 Greedy
+- [x] **[16. Candy](./16_candy.cpp)** `Hard`
+  - **Approach:** Two-Pass Greedy (Left-Right) / Single-Pass Slope (Peak-Valley)
+  - **Complexity:** $O(N)$ time, $O(1)$ space
+
+### 9. 🔗 Linked List
+- [x] **[17. Clone a Linked List with Random Pointer](./17_clone_linked_list.cpp)** `Medium`
+  - **Approach:** In-place 3-step pointer weaving (Interleaving nodes)
+  - **Complexity:** $O(N)$ time, $O(1)$ space
+
+### 10. 🌳 Binary Tree
+- [x] **[18. All Nodes Distance K in Binary Tree](./18_nodes_at_distance_k_binary_tree.cpp)** `Medium`
+  - **Approach:** Parent node mapping (Graph conversion) + Radial BFS
+  - **Complexity:** $O(N)$ time, $O(N)$ space
+- [x] **[19. Maximum Width of Binary Tree](./19_maximum_width_of_binary_tree.cpp)** `Medium`
+  - **Approach:** Level-order traversal + Index normalization to avoid overflow
+  - **Complexity:** $O(N)$ time, $O(N)$ space
+
 ---
 
 ## 📑 Master Solutions Index
@@ -86,3 +103,7 @@ A clean, modular repository with optimal C++ solutions and data structure implem
 | [x] | 13 | Alien Dictionary | Graph / Topo Sort | 🔴 Hard | $O(C + V + E)$ / $O(V + E)$ | [Code](./13_alien_dictionary.cpp) |
 | [x] | 14 | Word Ladder | Graph / BFS | 🔴 Hard | $O(N \times L \times 26)$ / $O(N \times L)$ | [Code](./14_word_ladder.cpp) |
 | [x] | 15 | Sliding Window Maximum | Sliding Window / Deque | 🔴 Hard | $O(N)$ / $O(k)$ | [Code](./15_sliding_window_maximum.cpp) |
+| [x] | 16 | Candy | Greedy | 🔴 Hard | $O(N)$ / $O(1)$ | [Code](./16_candy.cpp) |
+| [x] | 17 | Clone Linked List with Random Pointer | Linked List | 🟡 Medium | $O(N)$ / $O(1)$ | [Code](./17_clone_linked_list.cpp) |
+| [x] | 18 | All Nodes Distance K in Binary Tree | Binary Tree / BFS | 🟡 Medium | $O(N)$ / $O(N)$ | [Code](./18_nodes_at_distance_k_binary_tree.cpp) |
+| [x] | 19 | Maximum Width of Binary Tree | Binary Tree / BFS | 🟡 Medium | $O(N)$ / $O(N)$ | [Code](./19_maximum_width_of_binary_tree.cpp) |
